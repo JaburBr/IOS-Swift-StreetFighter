@@ -152,6 +152,9 @@
                                                 <constraint firstAttribute="height" constant="31" id="gLX-y3-try"/>
                                                 <constraint firstAttribute="width" constant="49" id="kjq-Yz-MHz"/>
                                             </constraints>
+                                            <connections>
+                                                <action selector="switchAlert:" destination="sXs-Qs-J5c" eventType="valueChanged" id="SMc-CZ-xlb"/>
+                                            </connections>
                                         </switch>
                                     </subviews>
                                     <constraints>
@@ -172,6 +175,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="leftImage" destination="4mw-7F-LdB" id="dTI-lJ-Poo"/>
+                                    <outlet property="msgSwitch" destination="jhW-Ek-gyQ" id="M7Q-eA-1JG"/>
                                     <outlet property="subTitleLabel" destination="xBN-YG-2bo" id="1x8-Ge-ksB"/>
                                     <outlet property="titleLabel" destination="wCF-Zh-LI0" id="bZc-mt-I7U"/>
                                     <segue destination="eLo-ND-U9T" kind="show" identifier="segueDetail" trigger="accessoryAction" id="HdC-Oy-1nP"/>

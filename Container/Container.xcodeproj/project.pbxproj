@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1644F96A1FD36CE00026CD51 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1644F9691FD36CE00026CD51 /* CollectionReusableView.swift */; };
+		1644F9871FD58AE80026CD51 /* DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1644F9861FD58AE80026CD51 /* DataKit.framework */; };
+		1644F9881FD58AE80026CD51 /* DataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1644F9861FD58AE80026CD51 /* DataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		16F3019D1FD200C20048727B /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3019C1FD200C20048727B /* DescriptionViewController.swift */; };
 		16F3019F1FD347B10048727B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3019E1FD347B10048727B /* CollectionViewController.swift */; };
 		16F301A11FD34C280048727B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F301A01FD34C280048727B /* CollectionViewCell.swift */; };
@@ -16,8 +17,6 @@
 		267C8A8E1FCDC70E00CDCB44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C8A8C1FCDC70E00CDCB44 /* Main.storyboard */; };
 		267C8A901FCDC70E00CDCB44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267C8A8F1FCDC70E00CDCB44 /* Assets.xcassets */; };
 		267C8A931FCDC70E00CDCB44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C8A911FCDC70E00CDCB44 /* LaunchScreen.storyboard */; };
-		267C8AB81FCDC80E00CDCB44 /* DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267C8AB71FCDC80E00CDCB44 /* DataKit.framework */; };
-		267C8AB91FCDC80E00CDCB44 /* DataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 267C8AB71FCDC80E00CDCB44 /* DataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		267C8ABD1FCDC8FE00CDCB44 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C8ABC1FCDC8FE00CDCB44 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				267C8AB91FCDC80E00CDCB44 /* DataKit.framework in Embed Frameworks */,
+				1644F9881FD58AE80026CD51 /* DataKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,7 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1644F9691FD36CE00026CD51 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		1644F9821FD589650026CD51 /* DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1644F9861FD58AE80026CD51 /* DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F3019C1FD200C20048727B /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		16F3019E1FD347B10048727B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		16F301A01FD34C280048727B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -47,7 +47,6 @@
 		267C8A8F1FCDC70E00CDCB44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		267C8A921FCDC70E00CDCB44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		267C8A941FCDC70E00CDCB44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		267C8AB71FCDC80E00CDCB44 /* DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		267C8ABC1FCDC8FE00CDCB44 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,19 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267C8AB81FCDC80E00CDCB44 /* DataKit.framework in Frameworks */,
+				1644F9871FD58AE80026CD51 /* DataKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1644F9801FD589650026CD51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1644F9821FD589650026CD51 /* DataKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		267C8A7C1FCDC70D00CDCB44 = {
 			isa = PBXGroup;
 			children = (
-				267C8AB71FCDC80E00CDCB44 /* DataKit.framework */,
+				1644F9861FD58AE80026CD51 /* DataKit.framework */,
 				267C8A871FCDC70D00CDCB44 /* Container */,
 				267C8A861FCDC70D00CDCB44 /* Products */,
+				1644F9801FD589650026CD51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +93,6 @@
 			children = (
 				267C8ABB1FCDC81D00CDCB44 /* Support files */,
 				267C8A8C1FCDC70E00CDCB44 /* Main.storyboard */,
-				1644F9691FD36CE00026CD51 /* CollectionReusableView.swift */,
 				16F301A01FD34C280048727B /* CollectionViewCell.swift */,
 				16F3019E1FD347B10048727B /* CollectionViewController.swift */,
 				267C8ABC1FCDC8FE00CDCB44 /* TableViewController.swift */,
@@ -135,7 +142,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
-				ORGANIZATIONNAME = "Rafagan Abreu";
+				ORGANIZATIONNAME = "Leandro Jabur";
 				TargetAttributes = {
 					267C8A841FCDC70D00CDCB44 = {
 						CreatedOnToolsVersion = 9.1;
@@ -179,7 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1644F96A1FD36CE00026CD51 /* CollectionReusableView.swift in Sources */,
 				262DA3731FCEE7D4008F91CB /* TableViewCell.swift in Sources */,
 				16F3019D1FD200C20048727B /* DescriptionViewController.swift in Sources */,
 				16F301A11FD34C280048727B /* CollectionViewCell.swift in Sources */,

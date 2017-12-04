@@ -73,6 +73,8 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
         //cell.contentTextLabel.text = content.description
         cell.textDescription = content.description
         
+        cell.delegateViewController = self
+        
         let img = UIImage(named: content.imageIco)
         cell.leftImage.image = img
         
@@ -93,8 +95,8 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
         
         for (section, list) in originalDataFighter {
             let filtered = list.filter{
-                let textToSearch = "\($0.name) \($0.description)"
-                return textToSearch.range(of: searchText) != nil
+                let textToSearch = "\($0.name.uppercased())"
+                return textToSearch.range(of: searchText.uppercased()) != nil
             }
             dataFighter[section] = filtered
         }

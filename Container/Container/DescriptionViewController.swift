@@ -3,7 +3,7 @@
 //  Container
 //
 //  Created by Leandro Jabur on 12/1/17.
-//  Copyright © 2017 Rafagan Abreu. All rights reserved.
+//  Copyright © 2017 Leandro Jabur. All rights reserved.
 //
 
 import UIKit
